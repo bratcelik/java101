@@ -8,7 +8,7 @@
 
 
 
- 	1. Yukarıda verilen dizinin sort türüne göre aşamalarını yazınır.
+ 	1. Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız.
  	2. Big-O gösterimini yazınız.
  	3. Time Complexity:
  	
