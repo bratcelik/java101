@@ -6,7 +6,7 @@
 
 
 
-##### 	Veri Yapıları ve Algoritmalar
+#####	Veri Yapıları ve Algoritmalar
 
 		* Insertion Sort Projesi
 		* Merge Sort Projesi
@@ -14,7 +14,13 @@
 
 
 
-------------------------------
+***
 
 
+#####	Java 101
 
+		* Scanner Sınıfı Kullanımı
+		* Ortalama Hesaplayan Program
+
+
+***
