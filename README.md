@@ -20,6 +20,8 @@
 
 ***
 
+###### Temel Kavramlar ve Değişkenler
+
 * [*Scanner Sınıfı Kullanımı*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum1/ScannerKullanimi.java)
 * [*Not Ortalamasını Hesaplayan Program*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum1/OrtalamaHesapla.java)
 * [*KDV Tutarı Hesaplayan Program*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum1/KdvHesapla.java)
@@ -29,3 +31,26 @@
 * [*Vücut Kitle İndeksi Hesaplayan Program*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum1/BodyMassIndex.java)
 * [*Manav Kasa Programı*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum1/GreengrocerCashRegister.java)
 
+
+
+###### Koşullu İfadeler ve Kod Blokları
+
+* [*Hesap Makinesi*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/Calculator.java)
+
+* [*Kullanıcı Girişi*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/LoginChecker.java)
+
+* [*Sınıfı Geçme Durumu*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/SchoolReport.java)
+
+* [*Hava Sıcaklığına Göre Etkinlik Önerme*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/SuggestActivity.java)
+
+* [*Sayıları Büyükten Küçüğe Sıralama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/ConditionalSort.java)
+
+* [*Burç Bulan Program*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/ZodiacSign.java)
+
+* [*Uçak Bileti Fiyatı Hesaplama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/FlightTicket.java)
+
+* [*Çin Zodyağı Hesaplama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/ChineseZodiac.java)
+
+* [*Artık Yıl Hesaplama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum2/LeapYear.java)
+
+  
