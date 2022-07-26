@@ -63,3 +63,14 @@
 * [*Ters Üçgen Örüntüsü Yazdırma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum3/PrintInvertedTriangle.java)
 * [*Asal Sayı Bulma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum3/FindPrimeNumber.java)
 * [*Fibonacci Serisi*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum3/FibonacciSeries.java)
+
+
+
+###### Metotlar
+
+* [*Palindrom Sayılar*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum4/PalindromeNumbers.java)
+* [*Recursive ile Fibonacci*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum4/Fibonacci.java)
+* [*Gelişmiş Hesap Makinesi*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum4/AdvancedCalculator.java)
+* [*Recursive Metotlar ile Üslü Sayı Hesaplama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum4/RecursiveExponentiation.java)
+* [*Asal Sayı Bulan Program*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum4/RecursivePrimeNumber.java)
+* [*Desene Göre Metot Oluşturma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum4/RecursivePattern.java)
