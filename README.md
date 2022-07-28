@@ -94,3 +94,10 @@
 * [*Diziyi Küçükten Büyüğe Sıralama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/ArraySorting.java)
 * [*Dizi Elemanlarının Frekasını Bulma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/FindFrequency.java)
 * [*Bir Matrisin Transpozesini Bulma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/FindTranspose.java)
+
+
+
+###### Diğer Konular
+
+* [*Sayı Tahmin Oyunu*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum7/FindTheNumber.java)
+* [*Palindromik Cümleleri Bulan Program*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum7/FindPalindromeSentence.java)
