@@ -106,4 +106,4 @@
 
 ###### **Bitirme Projesi**
 
-* [*Sayı Tahmin Oyunu*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/FinalProject)
+* [*Mayın Tarlası Oyunu*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/FinalProject)
