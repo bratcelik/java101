@@ -82,3 +82,15 @@
 * [*Öğrenci Bilgi Sistemi*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum5/StudentInformationSystem)
 * [*Boks Oyunu*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum5/BoxingGame)
 * [*Maaş Hesaplayıcı*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum5/SalaryCalculator)
+
+
+
+###### Diziler
+
+* [*Harmonik Ortalama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/HarmonicMean.java)
+* [*Girilen Değere En Yakın Sayıları Bulma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/FindClosestValue.java)
+* [*B Harfi Yazdırma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/PrintB.java)
+* [*Tekrar Eden Çift Sayıları Bulma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/FindRepeatingNumbers.java)
+* [*Diziyi Küçükten Büyüğe Sıralama*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/ArraySorting.java)
+* [*Dizi Elemanlarının Frekasını Bulma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/FindFrequency.java)
+* [*Bir Matrisin Transpozesini Bulma*](https://github.com/bratcelik/patika.dev/blob/main/java101/src/Bolum6/.FindTranspose.java)
