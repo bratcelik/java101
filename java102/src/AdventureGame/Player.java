@@ -101,6 +101,13 @@ public class Player {
         return block + this.inventory.getArmor().getBlock();
     }
 
+    public void playerStats(){
+        System.out.println("====== Character Stats ======");
+        System.out.println("Health\tCharacter Name\tDamage\tHealth\tMoney");
+        System.out.println("------\t--------------\t------\t------\t-----");
+
+    }
+
     public void setBlock(int block) {
         this.block = block;
     }

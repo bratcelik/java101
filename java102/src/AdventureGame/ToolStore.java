@@ -3,9 +3,8 @@ package AdventureGame;
 import java.sql.SQLOutput;
 
 public class ToolStore extends NormalLoc{
-
     public ToolStore(Player player) {
-        super(player, "Tool Store");
+        super(player, "Tool Store", "Equipment");
     }
 
     @Override

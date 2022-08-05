@@ -1,9 +1,8 @@
 package AdventureGame;
 
 public class SafeHouse extends NormalLoc{
-
     public SafeHouse(Player player) {
-        super(player, "Safe House");
+        super(player, "Safe House", "Health");
     }
 
     @Override
@@ -13,7 +12,9 @@ public class SafeHouse extends NormalLoc{
         return true;
     }
 
-    public String getInfo(){
+    @Override
+    public String getInfo() {
         return super.getInfo() + "It gives you rest and heals you.";
     }
+
 }
