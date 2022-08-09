@@ -11,6 +11,7 @@ public class Player {
     private int block;
     private int health;
     private int money;
+    private int defaultHealth;
 
     public Player(String name) {
         this.name = name;
@@ -53,7 +54,7 @@ public class Player {
 
     public void printCharacterInfo(){
         System.out.println("Char Name\t: " + this.getCharName()+
-                "\nDamage\t\t: "+this.getDamage()+
+                "\nDamage\t\t: "+this.getTotalDamage()+
                 "\nHealth\t\t: "+this.getHealth()+"" +
                 "\nMoney\t\t: "+this.getMoney());
     }
@@ -63,6 +64,34 @@ public class Player {
         this.setHealth(gameChar.getHealth());
         this.setMoney(gameChar.getMoney());
         this.setCharName(gameChar.getName());
+        this.defaultHealth = gameChar.getHealth();
+    }
+
+    public void playerStats(){
+        System.out.println("\t\t====== Character Stats ======");
+        System.out.println("Health\tWeapon\tDamage\t   Armor   \tBlock\tMoney");
+        System.out.println("------\t------\t------\t-----------\t-----\t-----");
+        System.out.printf("%-6d\t%-6s\t%-6d\t%-11s\t%-5d\t%-5d\n",
+                this.getHealth(),
+                this.getInventory().getWeapon().getName(),
+                this.getTotalDamage(),
+                this.getInventory().getArmor().getName(),
+                this.getTotalBlock(),
+                this.getMoney());
+
+    }
+
+    public void printBarStats(){
+        System.out.print("< ");
+        for (int j = 0; j < 10; j++){
+            if(j < this.getHealth()*10/this.getDefaultHealth()){
+                System.out.print("+");
+            }
+            else{
+                System.out.print("-");
+            }
+        }
+        System.out.println(" >");
     }
 
     public Inventory getInventory() {
@@ -90,23 +119,20 @@ public class Player {
     }
 
     public int getDamage() {
-        return damage + this.inventory.getWeapon().getDamage();
+        return damage;
     }
+
+    public int getTotalDamage(){return damage + this.inventory.getWeapon().getDamage();}
 
     public void setDamage(int damage) {
         this.damage = damage;
     }
 
     public int getBlock() {
-        return block + this.inventory.getArmor().getBlock();
+        return this.block;
     }
 
-    public void playerStats(){
-        System.out.println("====== Character Stats ======");
-        System.out.println("Health\tCharacter Name\tDamage\tHealth\tMoney");
-        System.out.println("------\t--------------\t------\t------\t-----");
-
-    }
+    public int getTotalBlock(){return this.block + this.inventory.getArmor().getBlock();}
 
     public void setBlock(int block) {
         this.block = block;
@@ -117,7 +143,7 @@ public class Player {
     }
 
     public void setHealth(int health) {
-        this.health = health;
+        this.health = Math.max(health, 0);
     }
 
     public int getMoney() {
@@ -126,5 +152,13 @@ public class Player {
 
     public void setMoney(int money) {
         this.money = money;
+    }
+
+    public int getDefaultHealth() {
+        return defaultHealth;
+    }
+
+    public void setDefaultHealth(int defaultHealth) {
+        this.defaultHealth = defaultHealth;
     }
 }

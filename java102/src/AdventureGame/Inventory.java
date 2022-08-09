@@ -1,5 +1,7 @@
 package AdventureGame;
 
+import java.util.ArrayList;
+
 public class Inventory {
     private Weapon weapon;
     private Armor armor;
@@ -13,7 +15,7 @@ public class Inventory {
     }
 
     public Weapon getWeapon() {
-        return weapon;
+        return this.weapon;
     }
 
     public void setWeapon(Weapon weapon) {
@@ -21,7 +23,7 @@ public class Inventory {
     }
 
     public Armor getArmor() {
-        return armor;
+        return this.armor;
     }
 
     public void setArmor(Armor armor) {
@@ -51,4 +53,5 @@ public class Inventory {
     public void setFireWood(boolean fireWood) {
         this.fireWood = fireWood;
     }
+
 }

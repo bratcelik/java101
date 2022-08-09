@@ -14,16 +14,16 @@ public class Weapon extends Tool{
 
     public static Weapon[] weapons(){
         Weapon[] weaponList = {
-                new Weapon("Gun",1,2,25),
-                new Weapon("Sword",2,3,35),
-                new Weapon("Rifle",3,7,45)
+                new Weapon("Gun",1,25,2),
+                new Weapon("Sword",2,35,3),
+                new Weapon("Rifle",3,45,7)
         };
 
         return weaponList;
     }
 
     public int getDamage() {
-        return damage;
+        return this.damage;
     }
 
     public void setDamage(int damage) {

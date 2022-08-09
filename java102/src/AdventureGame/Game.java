@@ -13,8 +13,7 @@ public class Game {
         System.out.print("Please enter a name : ");
         String playerName = input.nextLine();
         this.player = new Player(playerName);
-        System.out.println("Dear " + player.getName() + ", welcome to this dark and foggy island !! Everything that happens here is real!");
-        System.out.println("\nPlease select a character");
+        System.out.println("Dear " + player.getName() + ", welcome to this dark and foggy island !! Everything that happens here is real!\n");
         player.selectChar();
 
         while (selectLoc()){
@@ -33,7 +32,8 @@ public class Game {
                 new ToolStore(this.player),
                 new Cave(this.player),
                 new Forest(this.player),
-                new River(this.player)
+                new River(this.player),
+                new Mine(this.player)
         };
 
             System.out.println("\n  ====== LOCATIONS ======");

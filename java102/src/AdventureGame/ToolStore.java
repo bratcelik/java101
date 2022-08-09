@@ -1,7 +1,5 @@
 package AdventureGame;
 
-import java.sql.SQLOutput;
-
 public class ToolStore extends NormalLoc{
     public ToolStore(Player player) {
         super(player, "Tool Store", "Equipment");
@@ -9,7 +7,7 @@ public class ToolStore extends NormalLoc{
 
     @Override
     public boolean onLocation() {
-        System.out.println("====== Welcome to the Tool Store ======");
+        System.out.println("\n\t====== Welcome to the Tool Store ======\n");
         topMenu();
         return true;
     }
@@ -20,9 +18,10 @@ public class ToolStore extends NormalLoc{
     }
 
     public void topMenu(){
+        this.getPlayer().playerStats();
         int select;
         do {
-            System.out.println("====== CATEGORIES ======");
+            System.out.println("\n====== CATEGORIES ======");
             System.out.println("1 - Weapons\n2 - Armors\n3 - Exit");
             System.out.print("Please select a category : ");
             select = Location.input.nextInt();
@@ -35,15 +34,10 @@ public class ToolStore extends NormalLoc{
             }
         }while (true);
 
-        switch (select){
-            case 1:
-                weaponMenu();
-                break;
-            case 2:
-                armorMenu();
-                break;
-            case 3:
-                System.out.println("Good Luck!");
+        switch (select) {
+            case 1 -> weaponMenu();
+            case 2 -> armorMenu();
+            case 3 -> System.out.println("Good Luck!");
         }
 
     }
