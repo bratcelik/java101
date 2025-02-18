@@ -1,6 +1,3 @@
-# [*Patika*](https://www.patika.dev/tr) eğitimlerinin projelerini kapsar
-
-
 
 ## İçerik
 
